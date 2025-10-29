@@ -1,13 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [arm64-darwin24]
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* System dependencies: Pexels.com, Pexel's API
 
 * Configuration
 
