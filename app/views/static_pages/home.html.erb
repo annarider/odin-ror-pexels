@@ -5,3 +5,17 @@
   <%= form.text_field :collection_id %>
   <%= form.submit "Show photos" %>
 <% end %>
+
+<% if @photos %>
+  <div>
+    <% @photos['media'].each do |photo| %>
+      <div>
+
+        <img src="<%= photo['src']['medium'] %>" alt=" <%= photo['alt'] %> ">
+      </div>
+    <% end %>
+
+  </div>
+<% end %>
+
+<a href="https://www.pexels.com">Photos provided by Pexels</a>
