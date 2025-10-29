@@ -38,7 +38,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 # 2025-10-29 AR: Add Pexels API gem
-gem 'pexels'
+gem "pexels"
 # 2025-10-29 AR: Add Figaro gem for secure API credentials
 gem "figaro"
 
