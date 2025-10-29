@@ -39,6 +39,9 @@ gem "thruster", require: false
 
 # 2025-10-29 AR: Add Pexels API gem
 gem 'pexels'
+# 2025-10-29 AR: Add Figaro gem for secure API credentials
+gem "figaro"
+
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
