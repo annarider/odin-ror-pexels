@@ -8,10 +8,10 @@
 
 <% if @photos %>
   <div>
-    <% @photos['media'].each do |photo| %>
+    <% @photos.each do |photo| %>
       <div>
 
-        <img src="<%= photo['src']['medium'] %>" alt=" <%= photo['alt'] %> ">
+        <img src="<%= photo.src['medium'] %>" alt="Photo from Pexels by <%= photo.user.name %>">
       </div>
     <% end %>
 
